@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relax</title>
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/icon-192.png" type="image/png" />
+  <meta name="theme-color" content="#4CAF50" />
+  <meta name="description" content="Relax and play. Instant access to curated mini-games." />
+  <!-- Auto redirect -->
+  <script>
+    if ('serviceWorker' in navigator) {
+     navigator.serviceWorker.register('/sw.js');
+    }
+    window.location.href = 'https://www.hkhuaxun.com/#game';
+  </script>
+</head>
+<body>
+  <h1>Loading Relax...</h1>
+  <p>Redirecting to mini-games.</p>
+</body>
+</html>
